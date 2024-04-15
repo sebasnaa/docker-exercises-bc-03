@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx-custom:1.0
+    container_name: mi_nginx_container
+    ports:
+      - "80:80"
+    restart: always
